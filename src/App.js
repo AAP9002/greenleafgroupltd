@@ -7,7 +7,7 @@ const App = () => {
       <div className="dynamic-background"></div>
       <header className="header">
         <h1>Green Leaf Group LTD</h1>
-        <p>Affordable Housing | Sustainable Future</p>
+        <p>Managing Affordable Housing | Sustainable Future</p>
       </header>
       <main className="content">
 
@@ -15,7 +15,7 @@ const App = () => {
           <h2>Our mission</h2>
           <hr/>
           <p>
-            Provide affordable, quality homes while fostering a greener future.
+            Managing affordable, quality homes while fostering a greener future.
           </p>
           <hr/>
         </div>
