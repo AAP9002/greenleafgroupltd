@@ -23,19 +23,19 @@ const App = () => {
         <section className="business-details">
           <h1>Contact us</h1>
           <hr/>
+          <div>
+            <p>Open Monday to Friday 9am - 5pm</p>
+          </div>
           <div className="contact-details">
             <a href="mailto:admin@glglettings.com">admin@glglettings.com</a>
           </div>
           <div className="contact-details">
             <a href="tel:+447957842167">+44 7957 842167</a>
           </div>
-          <div>
-            <p>Open Monday to Friday 9am - 5pm</p>
-          </div>
           <button
             className="call-button"
             onClick={() => window.location.href = 'tel:+447957842167'}
-          >
+            >
             Call Our Office
           </button>
         </section>
