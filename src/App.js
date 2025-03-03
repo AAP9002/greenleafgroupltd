@@ -6,7 +6,7 @@ const App = () => {
     <div className="app">
       <div className="dynamic-background"></div>
       <header className="header">
-        <h1>Green Leaf Group LTD</h1>
+        <h1>Green Leaf Group</h1>
         <p>Property Management | Sustainable Future</p>
       </header>
       <main className="content">
@@ -29,6 +29,9 @@ const App = () => {
           <div className="contact-details">
             <a href="tel:+447957842167">+44 7957 842167</a>
           </div>
+          <div>
+            <p>Open Monday to Friday 9am - 5pm</p>
+          </div>
           <button
             className="call-button"
             onClick={() => window.location.href = 'tel:+447957842167'}
@@ -37,6 +40,9 @@ const App = () => {
           </button>
         </section>
       </main>
+      <footer className="footer">
+        <p>Green Leaf Group LTD &copy; 2025</p>
+      </footer>
     </div>
   );
 };
